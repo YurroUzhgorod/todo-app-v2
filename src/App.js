@@ -50,7 +50,6 @@ function App() {
           completedTodosExist={!!completedTodosCounter}
           resetTodos={resetTodosHandler}
           deleteCompletedTodos={deleteCompletedTodosHandler}
-          addTodo={addTodoHandler}
         />
       )}
       <TodoList

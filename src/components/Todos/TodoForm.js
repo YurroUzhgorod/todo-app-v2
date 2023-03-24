@@ -23,7 +23,7 @@ function TodoForm({ addTodo }) {
           value={text}
           onChange={onChangeHandler}
         />
-        <Button type="submit" onClick={onSubmitHandler}>
+        <Button type="submit" onClick={onSubmitHandler} title="Submit">
           Submit
         </Button>
       </form>
