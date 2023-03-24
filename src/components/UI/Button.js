@@ -1,5 +1,18 @@
-function Todo() {
-  return <h1>This is Todo</h1>;
+import React from "react";
+
+import styles from "./Button.module.css";
+
+function Button({ onClick, children, title, disabled = false }) {
+  return (
+    <button
+      className={styles.button}
+      onClick={onClick}
+      title={title}
+      disabled={disabled}
+    >
+      {children}
+    </button>
+  );
 }
 
-export default Todo;
+export default Button;
